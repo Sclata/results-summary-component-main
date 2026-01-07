@@ -25,7 +25,7 @@ function App() {
     const [scoreData, setScoreData] = useState([]);
 
     useEffect(() => {
-        const _url = './src/data/data.json';
+        const _url = 'data.json';
         fetch(_url)
             .then((response) => response.json())
             .then((jsonData) => setScoreData(jsonData))
