@@ -1,0 +1,31 @@
+:root {
+    --col_white: #ffffff;
+    --col_black: #000000;
+
+    /* Navy */
+    --col_navy_950: #303b59;
+    --col_navy_200: #cac9ff;
+    --col_navy_50: #ecf2ff;
+
+    /* Blue */
+    --col_blue_800: #1125d6;
+    --col_blue_50: #f3f4fd;
+
+    /* Yellow */
+    --col_yellow_400: #ffb21e;
+    --col_yellow_50: #fffbf4;
+
+    /* Red */
+    --col_red_400: #ff5555;
+    --col_red_50: #fff6f6;
+
+    /* Green */
+    --col_green_500: #00bb8f;
+    --col_green_50: #f2fcf9;
+
+    /* Gradients */
+    --grad2_start: #7755ff;
+    --grad2_end: #2f2ce9;
+    --grad1_start: hsla(256, 71%, 46%, 1);
+    --grad1_end: hsla(241, 72%, 46%, 0);
+}

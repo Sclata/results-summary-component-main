@@ -1,0 +1,71 @@
+@import url('../../styles/variables.css');
+
+@scope (.scorecard) {
+    :scope {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 130%;
+        border-radius: 0.5em;
+    }
+
+    .label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .max-score {
+        color: var(--col_navy_950);
+        opacity: 50%;
+    }
+}
+
+@scope (.scorecard--yellow) {
+    :scope {
+        background-color: var(--col_yellow_50);
+    }
+
+    h4 {
+        color: var(--col_yellow_400);
+    }
+}
+
+@scope (.scorecard--red) {
+    :scope {
+        background-color: var(--col_red_50);
+    }
+
+    h4 {
+        color: var(--col_red_400);
+    }
+}
+
+@scope (.scorecard--blue) {
+    :scope {
+        background-color: var(--col_blue_50);
+    }
+
+    h4 {
+        color: var(--col_blue_800);
+    }
+}
+
+@scope (.scorecard--green) {
+    :scope {
+        background-color: var(--col_green_50);
+    }
+
+    h4 {
+        color: var(--col_green_500);
+    }
+}

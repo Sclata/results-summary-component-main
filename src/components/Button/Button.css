@@ -1,0 +1,17 @@
+@import url('../../styles/variables.css');
+
+button {
+    background-color: var(--col_navy_950);
+    font-weight: bold;
+    font-size: 1.175rem;
+    color: var(--col_white);
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 8em;
+    border: none;
+}
+
+button:hover {
+    background: linear-gradient(var(--grad2_start), var(--grad2_end));
+    cursor: pointer;
+}

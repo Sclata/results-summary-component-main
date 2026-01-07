@@ -1,0 +1,46 @@
+@import url('./styles/variables.css');
+
+.container {
+    background-color: var(--col_white);
+    max-width: 400px;
+}
+
+.score-summary {
+    padding: 1.5rem;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5em 0em;
+}
+
+h2 {
+    font-size: 1.175rem;
+    line-height: 130%;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: flex;
+        border-radius: 2em;
+        max-width: 730px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .score-summary {
+        padding: 2rem;
+    }
+
+    ul {
+        padding: 2em 0em;
+    }
+}
