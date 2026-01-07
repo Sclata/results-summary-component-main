@@ -43,7 +43,7 @@ function App() {
                             return (
                                 <li key={key}>
                                     <Scorecard
-                                        icon={`./src${data.icon}`}
+                                        icon={data.icon}
                                         category={data.category}
                                         score={data.score}
                                         color={data.color}
